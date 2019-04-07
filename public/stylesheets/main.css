@@ -1,0 +1,131 @@
+#about{
+  padding-left: 390px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  }
+  #home{
+      
+     background-image:url("https://images2.alphacoders.com/238/thumb-1920-238870.jpg");
+    
+     height: 100%;
+     
+     
+  }
+  
+  #wip{
+      padding-top: 200px;
+      color: white;
+      font-size: 100px;
+      font-family: serif;
+  }
+  .lead{
+      color:white;
+      
+  }
+
+.cd-timeline-start {
+            background: #fff none repeat scroll 0 0;
+            border: 3px solid #333333;
+            clear: both;
+            display: block;
+            margin: 0 auto 10px;
+            padding: 15px;
+            position: relative;
+            text-align: center;
+            width: 250px;
+            z-index: 1;
+            text-align: center;
+          }
+          .cd-timeline-start-caption, .cd-timeline-start-date {
+              font-family: Lato,Arial,Helvetica,sans-serif;
+          }
+          .cd-timeline-start-caption {
+              color: #4b4e53;
+              font-size: 20px;
+              padding-bottom: 10px;
+              padding-top: 10px;
+          }
+          .cd-timeline-start-date {
+              margin-bottom: 5px;
+          }
+          .cd-timeline-block:nth-child(2n) .cd-timeline-content::before {
+            border-color: transparent #f3f3f3 transparent transparent;
+            left: auto;
+            right: 100%;
+            top: 24px;
+          }
+          .cd-timeline-block:nth-child(2n) .cd-timeline-content .cd-date {
+            left: auto;
+            right: 122%;
+            text-align: right;
+          }
+        
+        .cd-timeline-content::before {
+            -moz-border-bottom-colors: none;
+            -moz-border-left-colors: none;
+            -moz-border-right-colors: none;
+            -moz-border-top-colors: none;
+            border-color: transparent #f3f3f3 transparent transparent;
+            border-image: none;
+            border-style: solid;
+            border-width: 7px;
+            content: "";
+            height: 0;
+            position: absolute;
+            right: 100%;
+            top: 16px;
+            width: 0;
+
+          }
+          p,h2,.cd-date,h1,h4,h5,h3{
+             text-align: center;
+          }
+          .arrow,.column{
+              text-align:center;
+          }
+          .row{
+            padding-top: 50px;
+          }
+         body{
+          padding-top: 40px;
+         }
+         .search{
+          padding-top: 20px;
+          text-align: center;
+          padding-bottom: 40px;
+         }
+         #project{
+          padding-top: 30px;
+         }
+         .symbols{
+            text-align: center;
+            padding: 30px;
+                     }
+                     .logo{
+                      padding-left: 470px;
+                     }
+                     .button{
+                      text-align: center;
+                     }
+                     hr{
+                      border-color: white;
+                     }
+#buttons{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+.container{
+  padding: 20px;
+}
+.row{
+  margin: 30px;
+  margin-bottom: 20px;
+}
+.card{
+  margin: 15px;
+}
+
+.forms{
+  margin-top: 100px;
+}

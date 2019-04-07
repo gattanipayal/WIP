@@ -1,0 +1,34 @@
+<% include partials/header %>
+
+  <div id="project">
+    <div>
+      <h1>PROJECTS</h1>
+    </div>                      
+    <div class="search">
+      <span aria-hidden="true" class="searchButton fa fa-search"></span>
+      <input type="search" class="searchTerm" id="myInput" placeholder="Search for projects...">
+    </div>
+    <div id="buttons"><a href="/projects/new" class="btn btn-outline-dark">Add a new Project</a></div>
+  </div>               
+      
+  
+  <div class="row text-center" style="display: flex; flex-wrap: wrap;">
+    <% projects.forEach(function(project){ %>
+      <div class="col-md-3 col-sm-6">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title"><%= project.name %></h5>
+              <p class="card-text"><%=project.title%></p>
+              <a href="/projects/<%=project._id%>" class="btn btn-outline-primary">More Info</a>
+            </div>
+        </div>
+      </div>
+    <% }); %>
+  </div>
+
+</div>
+
+<% include partials/footer %>
+
+
+
